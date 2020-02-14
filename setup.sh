@@ -11,7 +11,7 @@ sudo apt install git
 sudo apt install zsh
 
 #Install OhMyZsh
-sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/master/tools/install.sh)"
+sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 #Tmux
 sudo apt install tmux
