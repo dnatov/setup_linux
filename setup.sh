@@ -10,6 +10,9 @@ sudo apt install git
 #Zsh
 sudo apt install zsh
 
+#Install OhMyZsh
+sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/master/tools/install.sh)"
+
 #Tmux
 sudo apt install tmux
 
