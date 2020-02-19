@@ -27,4 +27,4 @@ sudo cp configs/.zshrc ~/.zshrc
 sudo cp configs/.tmux.conf ~/.tmux.confi
 
 #Set zsh as the default shell
-sudo chsh -s $(which zsh)
+chsh -s $(which zsh)
