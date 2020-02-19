@@ -20,8 +20,11 @@ sudo apt install tmux
 sudo apt install htop
 
 #Copy main config files
-cp configs/.gitconfig ~/.gitconfig
-cp configs/.bashrc ~/.bashrc
-cp configs/.vimrc ~/.vimrc
-cp configs/.zshrc ~/.zshrc
-cp configs/.tmux.conf ~/.tmux.conf
+sudo cp configs/.gitconfig ~/.gitconfig
+sudo cp configs/.bashrc ~/.bashrc
+sudo cp configs/.vimrc ~/.vimrc
+sudo cp configs/.zshrc ~/.zshrc
+sudo cp configs/.tmux.conf ~/.tmux.confi
+
+#Set zsh as the default shell
+sudo chsh -s $(which zsh)

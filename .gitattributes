@@ -1,2 +1,9 @@
-# Set the default behavior, in case people don't have core.autocrlf set.
-* text=auto
+# Set hidden files and sh scripts to default to unix line endings
+# None of this wsl CRLF nonsense
+
+*.bashrc text eol=lf
+*.tmux.conf text eol=lf
+*.zsh.rc text eol=lf
+*.vimrc text eol=lf
+*.gitconfig text eol=lf
+*.sh text eol=lf
