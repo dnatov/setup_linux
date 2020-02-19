@@ -3,7 +3,8 @@
 
 *.bashrc text eol=lf
 *.tmux.conf text eol=lf
-*.zsh.rc text eol=lf
+*.zshrc text eol=lf
 *.vimrc text eol=lf
 *.gitconfig text eol=lf
 *.sh text eol=lf
+*.gitattributes text eol=lf
