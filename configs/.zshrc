@@ -5,7 +5,14 @@
 export ZSH="/home/dnatov/.oh-my-zsh"
 
 #Path to default work repository location on Windows
-export repo="/mnt/c/Users/danan/Documents/thunderbolt-software-dev"
+#Across installs I use names like: dnatov,danan
+
+if [ -d "/mnt/c/Users/danan/Documents/thunderbolt-software-dev" ] 
+then
+    export repo="/mnt/c/Users/danan/Documents/thunderbolt-software-dev"
+else
+    export repo="/mnt/c/Users/dnatov/Documents/thunderbolt-software-dev"
+fi
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
