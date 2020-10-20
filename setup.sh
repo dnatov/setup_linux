@@ -10,8 +10,9 @@ sudo apt install git
 #Zsh
 sudo apt install zsh
 
-#Install OhMyZsh
-sudo sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+#Install OhMyZsh - Use alternate for different username
+#sudo su - danan sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo su - dnatov sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 #Tmux
 sudo apt install tmux

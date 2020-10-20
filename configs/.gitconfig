@@ -11,5 +11,3 @@
 	editor = vim
 	autocrlf = true
 	whitespace = cr-at-eol
-[url "ssh://git@github.com/"]
-	insteadOf = https://github.com
