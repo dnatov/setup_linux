@@ -11,14 +11,14 @@ if [ -d "/mnt/c/Users/danan/Documents/thunderbolt-software-dev" ]
 then
     export repo="/mnt/c/Users/danan/Documents/thunderbolt-software-dev"
 else
-    export repo="/mnt/c/Users/dnatov/Documents/thunderbolt-software-dev"
+    export repo="/mnt/c/GSDSoftware/thunderbolt-software-dev"
 fi
 
 if [ -d "/mnt/c/Users/danan/Documents/tempest" ]
 then
     export tempest="/mnt/c/Users/danan/Documents/tempest"
 else
-    export tempest="/mnt/c/Users/dnatov/Documents/tempest"
+    export tempest="/mnt/c/GSDSoftware/tempest"
 fi
 
 # Set name of the theme to load --- if set to "random", it will
@@ -117,10 +117,10 @@ alias zshconfig="mate ~/.zshrc"
 
 alias msbuild="/mnt/c/Program\ Files\ \(x86\)/Microsoft\ Visual\ Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe"
 
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
+#export PYENV_ROOT="$HOME/.pyenv"
+#export PATH="$PYENV_ROOT/bin:$PATH"
 
 #Manipulates PATH during intialization for pyenv
 #This must come after the export pyenv_root command
-eval "$(pyenv init -)"
+#eval "$(pyenv init -)"
 
