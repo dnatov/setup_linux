@@ -11,14 +11,14 @@ if [ -d "/mnt/c/Users/danan/Documents/thunderbolt-software-dev" ]
 then
     export repo="/mnt/c/Users/danan/Documents/thunderbolt-software-dev"
 else
-    export repo="/mnt/c/Users/dnatov/Documents/thunderbolt-software-dev"
+    export repo="/mnt/c/GSDSoftware/thunderbolt-software-dev"
 fi
 
 if [ -d "/mnt/c/Users/danan/Documents/tempest" ]
 then
     export tempest="/mnt/c/Users/danan/Documents/tempest"
 else
-    export tempest="/mnt/c/Users/dnatov/Documents/tempest"
+    export tempest="/mnt/c/GSDSoftware/tempest"
 fi
 
 # Set name of the theme to load --- if set to "random", it will
