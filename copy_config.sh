@@ -2,6 +2,5 @@
 cp	~/.vimrc \
 	~/.bashrc \
 	~/.gitconfig \
-	~/.tmux.conf \
 	~/.zshrc \
 	configs

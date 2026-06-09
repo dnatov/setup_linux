@@ -1,2 +1,2 @@
 # setup_linux
-Simple repository to store all my personal configs for WSL installs
+Simple repository to store all my personal configs for Manjaro Linux installs
